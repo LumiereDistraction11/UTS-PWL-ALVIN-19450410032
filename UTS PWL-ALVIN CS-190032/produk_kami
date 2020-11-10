@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Aria is a business focused HTML landing page template built with Bootstrap to help you create lead generation websites for companies and their services.">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Aria - Business HTML Landing Page Template</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="logo.png" style="width:60px"></a>
+				<button type="button" class="navbar-toggler" data-toggler="collapse" data-target="#LumiereCollapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="LumiereCollapse">
+					<ul class="navbar-nav">
+						<li class="nav-item active"><a class="nav-link" href="praktikum homepage">Home</a></li>
+						<li class="nav-item active"><a class="nav-link" href="#">Produk Kami</a></li>
+						<li class="nav-item active"><a class="nav-link" href="form login">Login</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+<!-- Projects -->
+	<div id="projects" class="filter">
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">PRODUK KAMI</div>
+                    <h2>Berbagai macam jenis </h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Filter -->
+                    <div class="button-group filters-button-group">
+                        <a class="button is-checked" data-filter="*"><span>Illustrasi</span></a>
+                        
+                    </div> <!-- end of button group -->
+                    <div class="grid">
+                        <div class="element-item development">
+                            <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Headshot</span></div><img src="images/project-1.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item development">
+                            <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>Angle</span></div><img src="images/project-2.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design development marketing">
+                            <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>Couple</span></div><img src="images/project-3.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design development marketing">
+                            <a class="popup-with-move-anim" href="#project-4"><div class="element-item-overlay"><span>Banner</span></div><img src="images/project-4.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design development marketing seo">
+                            <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>Poster</span></div><img src="images/project-5.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design marketing seo">
+                            <a class="popup-with-move-anim" href="#project-6"><div class="element-item-overlay"><span>Semi Realis</span></div><img src="images/project-6.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design marketing">
+                            <a class="popup-with-move-anim" href="#project-7"><div class="element-item-overlay"><span>Cave </span></div><img src="images/project-7.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design marketing">
+                            <a class="popup-with-move-anim" href="#project-8"><div class="element-item-overlay"><span>Anime Style</span></div><img src="images/project-8.jpg" alt="alternative"></a>
+                        </div>
+                    </div> <!-- end of grid -->
+                    <!-- end of filter -->
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+		</div> <!-- end of container -->
+    </div> <!-- end of filter -->
+    <!-- end of projects -->
+
+</body>
+
+</html>

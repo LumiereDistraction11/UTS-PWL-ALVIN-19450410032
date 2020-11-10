@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Alvin Praktikum 5  </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<style>
+			.jumbotron {
+				background: url("background.jpg") no-repeat center;
+			}
+
+			
+		</style>
+
+	</head>
+	<body>
+
+		<nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="logo.png" style="width:60px"></a>
+				<button type="button" class="navbar-toggler" data-toggler="collapse" data-target="#LumiereCollapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="LumiereCollapse">
+					<ul class="navbar-nav">
+						<li class="nav-item active"><a class="nav-link" href="praktikum homepage">Home</a></li>
+						<li class="nav-item active"><a class="nav-link" href="produk_kami">Produk Kami</a></li>
+						<li class="nav-item active"><a class="nav-link" href="form login">Login</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-5">
+				<img src="gambarr.jpg" class="img-fluid">
+				<h1>Buat Akun </h1>
+				<p class="font-italic text-muted">Bergabunglah dan Nikmati Wawasan Tanpa batas.
+				
+			</div>
+			
+			<div class="col-md-6">
+				<form>
+					<div class="row">
+						<!-- nama awal-->
+					<div class="input-group col-md-6 mb-4">
+						<span class="input-group-text px-4 bg-white border-right-0">
+							<i class="fa fa-user text-muted"></i>
+						</span>
+						<input name="NamaAwal" type="text" class="form-control bg-white border-left-0" placeholder="Nama Awal">
+					</div>
+					
+					<!-- nama akhir-->
+					<div class="input-group col-md-6 mb-4">
+						<span class="input-group-text px-4 bg-white border-right-0">
+							<i class="fa fa-user text-muted"></i>
+						
+						</span>
+						<input name="NamaAkhir" type="text" class="form-control bg-white border-left-0" placeholder="Nama Akhir">
+					</div>
+					
+					<!-- email-->
+					<div class="input-group col-md-12 mb-4">
+						<span class="input-group-text px-4 bg-white border-right-0">
+							<i class="fa fa-envelope text-muted"></i>
+						
+						</span>
+						<input name="Email" type="email" class="form-control bg-white border-left-0" placeholder="Email">
+					</div>
+					
+					<!-- no telepon-->
+					<div class="input-group col-md-12 mb-4">
+						<span class="input-group-text px-4 bg-white border-right-0">
+							<i class="fa fa-phone text-muted"></i>
+						
+						</span>
+						<select name="kodeNegara" style="max-width:80px" class="form-control bg-white border-md font-weight-bold h-100 text-muted border-left-0">
+						<option value="+60">+60</option>
+						<option value="+61">+61</option>
+						<option value="+62">+62</option>
+						</select>
+						<input name="phone" type="tel" class="form-control bg-white border-left-0" placeholder="Nomor Telepon">
+					</div>
+					
+						<!-- jenis pekerjaan-->
+					<div class="input-group col-md-12 mb-4">
+						<span class="input-group-text px-4 bg-white border-right-0">
+							<i class="fa fa-user-tie text-muted"></i>
+						
+						</span>
+						<select name="usia"  class="form-control bg-white border-md font-weight-bold h-100 text-muted border-left-0">
+						<option value="Pelajar">Pelajar/Mahasiswa</option>
+						<option value="Pengusaha">Pengusaha</option>
+						<option value="Berkeluarga">Berkeluarga</option>
+						</select>
+						
+					</div>
+					<!-- password-->
+					<div class="input-group col-md-6 mb-4">
+						<span class="input-group-text px-4 bg-white border-right-0">
+							<i class="fa fa-user text-muted"></i>
+						</span>
+						<input name="password" type="password" class="form-control bg-white border-left-0" placeholder="Password">
+					</div>
+					
+					<!-- konfirmasi password-->
+					<div class="input-group col-md-6 mb-4">
+						<span class="input-group-text px-4 bg-white border-right-0">
+							<i class="fa fa-user text-muted"></i>
+						
+						</span>
+						<input name="konfirmasipassword" type="password" class="form-control bg-white border-left-0" placeholder="Konfirmasi Password">
+					</div>
+						<!-- submit-->
+					<div class="input-group col-md-12 ">
+						<input name="submit" type="submit" class="form-control btn btn-primary btn-block font-weight-bold" value="Create Your Account">
+					</div>
+					<!-- teks pemisah -->
+					<div class="col-md-12 d-flex align-items-center">
+						<div class="border-bottom w-100 ml-5"></div>
+						<span class="px-5 text-muted font-weight-bold"> ATAU </span>
+						<div class="border-bottom w-100 mr-5"></div>
+					</div>
+						<!-- facebook-->
+					<div class="input-group col-md-6 mb-4 ">
+						<input name="daftarViafacebook" type="button" class="form-control btn btn-primary btn-block font-weight-bold" value="Login with Facebook">
+					</div>
+					
+						<!-- Google-->
+					<div class="input-group col-md-6 mb-4 ">
+						<input name="daftarViaGoogle" type="button" class="form-control btn btn-primary btn-block font-weight-bold" value="Login with Google">
+					</div>
+				</div>
+					
+					
+				</form>
+			</div>
+			
+			
+
+
+
+</body>
+</html>
+<!-- TUGAS PRAKTIKUM PERTEMUAN 5 ALVIN CAHYA S 190032-->

@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Praktikum Membuat Homepage Sederhana</title>
+<meta charset="UTF-8">
+
+
+<img src="gambar.jpg" alt="image" width="100%">
+<p>   </p>
+</head>
+
+
+<center>
+<button onclick="window.location=
+'https://www.fiverr.com/alvinationgraph?public_mode=true' "style="background-color: #B33B54; color: white; height: 35px; width: 150px;">
+<b>
+Lebih Lanjut</b>
+</button>
+</center>
+<style>
+body {
+background-color: #EEEEEF
+}
+</style>
+
+
+<center>
+<h1  style="color:#4B4199;"> Layanan Kami </h1>
+</center>
+<center>
+<table border="0">
+<tbody>
+<tr>
+<td><input type="image" src="gambar1.jpg" width="200" height"200"/>
+</td>
+<td><input type="image" src="gambar2.jpg" width="200" height"200"/>
+</td><td><input type="image" src="gambar3.jpg" width="200" height"200"/>
+</td>
+</tr>
+
+
+</tbody></table>
+</center>
+<center>
+<h1  style="color:#4B4199;"> Hubungi Kami Sekarang juga</h1>
+
+<p style="color:#4B4199;"> Jika tertarik dengan layanan kami, silahkan kirim pesan sekarang juga dengan klik tombol di bawah ini </p>
+</center>
+
+
+<center>
+<button onclick="window.location=
+'https://wa.me/6289618278366' "style="background-color: #B33B54; color: white; height: 35px; width: 150px;">
+<b>
+CONTACT US</b>
+</button>
+</center>
+
+<section id="services"> </section>
+<section id="contact"> </section>
+
+<footer>
+<center>
+<p style="color:#4B4199;"> copyright Alvin Cahya Syaputra </p>
+</center>
+</footer>
+
+</body>
+<html>
